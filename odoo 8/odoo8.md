@@ -184,8 +184,9 @@ Puis on va configurer notre hôte :
 ## Mise en route d’Odoo
 Création de la première base Odoo
 
-Pointez votre navigateur à l’adresse http://localhost/ ou si c'est sur un serveur en ligne http://adreesipduserveur:port. 
+Pointez votre navigateur à l’adresse http://localhost/ ou si c'est sur un serveur en lignehttp://<votre_domaine_ou_adresse_IP>:8069 
 Vous serez redirigé vers le Database Manager et invité à créer votre première base Odoo.
+![img.png](img.png)
 
 Le master password est celui que l’on a défini dans odoo-server.conf. Le password sera celui de 
 l’administrateur de cette nouvelle base.
