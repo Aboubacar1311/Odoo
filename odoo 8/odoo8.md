@@ -111,7 +111,7 @@ On crée d’abord le fichier odoo-server.conf :
     environment = HOME="/opt/odoo/",USER="odoo"
 
 Puis on crée le fichier odoo-server-longpolling.conf :
-
+    
     [program:odoo-server-longpolling]
     command=/opt/odoo/venv-odoo/bin/python /opt/odoo/odoo/openerp-gevent -c /opt/odoo/odoo-server.conf --logfile=/opt/odoo/odoo-server-longpolling.log
     autostart=true
@@ -136,6 +136,8 @@ On va commencer par désinstaller Apache :
 Puis on va configurer notre hôte :
 
     cd /etc/nginx/sites-available/
+    nano odoo.conf
+## saisissez
 
     server {
         listen        80;
